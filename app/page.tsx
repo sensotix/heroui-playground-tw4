@@ -1,13 +1,10 @@
 "use client";
 
-import { Link } from "@heroui/react";
-import { Snippet } from "@heroui/react";
-import { Code } from "@heroui/react";
-import { button as buttonStyles } from "@heroui/react";
+import { button as buttonStyles, Code, Link, Snippet } from "@heroui/react";
 
-import { siteConfig } from "@/config/site";
-import { title, subtitle } from "@/components/primitives";
 import { GithubIcon } from "@/components/icons";
+import { subtitle, title } from "@/components/primitives";
+import { siteConfig } from "@/config/site";
 
 export default function Home() {
 	return (
